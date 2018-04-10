@@ -25,14 +25,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background: #f4f8fb;
-  font-family: system-ui;
+  font-family: system, -apple-system, BlinkMacSystemFont, Roboto,
+    'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
 }
 
 a {
   display: inline-block;
   color: inherit;
   text-decoration: none;
-  text-decoration-skip-ink: auto;
 }
 
 button {

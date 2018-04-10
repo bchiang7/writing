@@ -48,7 +48,7 @@
     }
     &__description {
       p {
-        font-family: Georgia;
+        font-family: 'Georgia', serif;
         color: #15171a;
         line-height: 1.7;
         margin-bottom: 20px;
@@ -57,15 +57,12 @@
       }
     }
     &__footer {
-      .author a {
+      .author {
         color: #26a8ed;
         text-transform: uppercase;
         letter-spacing: 0.5px;
         text-transform: uppercase;
         font-size: 14px;
-        &:hover {
-          text-decoration: underline;
-        }
       }
     }
   }
